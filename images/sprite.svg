@@ -99,6 +99,11 @@
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 2" id="line">
     <path fill="#63c3ef" d="M0 0h50v2H0z"></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209 54" id="logo">
+    <defs></defs>
+    <path id="Polygon_1_copy_2" d="M43.851,29.7L24.244,39.2,32.037,14.02Z"></path>
+    <path id="Polygon_1_copy_2-2" d="M37.033,29.7L56.64,39.2,48.847,14.02Z"></path><text id="Moshify" transform="translate(71.466 35.437) scale(0.923)">Moshify</text>
+  </symbol>
   <symbol id="menu" enable-background="new 0 0 24 24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <g>
       <path d="m21.5 24h-19c-1.379 0-2.5-1.122-2.5-2.5v-19c0-1.378 1.121-2.5 2.5-2.5h19c1.379 0 2.5 1.122 2.5 2.5v19c0 1.378-1.121 2.5-2.5 2.5zm-19-23c-.827 0-1.5.673-1.5 1.5v19c0 .827.673 1.5 1.5 1.5h19c.827 0 1.5-.673 1.5-1.5v-19c0-.827-.673-1.5-1.5-1.5z"></path>
@@ -111,6 +116,15 @@
     </g>
     <g>
       <path d="m16.5 17h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 87.8" id="popular">
+    <path fill="#1e0f6d" d="M0 4.7h35L30.3 0H5.1L0 4.7z"></path>
+    <g>
+      <path fill="#1b0760" d="M5.3.2v87l11.9-11.9 12.5 12.5V.2H5.3z"></path><text transform="rotate(90 1.05 12.25)" font-size="15" fill="#fff" font-family="Inter-Bold,Inter" font-weight="700">
+        <tspan letter-spacing="-.01em">P</tspan>
+        <tspan x="9.6" y="0">opular</tspan>
+      </text>
     </g>
   </symbol>
   <symbol version="1.1" id="quotes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 508.044 508.044">

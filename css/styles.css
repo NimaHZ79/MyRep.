@@ -295,7 +295,7 @@ a {
 }
 
 .card--primary .card__header {
-  background: var(--color-headings);
+  background: var(--color-primary);
 }
 
 .card--secondary .card__header {
@@ -369,4 +369,23 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__image {
+  margin-top: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.media__body {
+  margin: 0 2rem;
 }
