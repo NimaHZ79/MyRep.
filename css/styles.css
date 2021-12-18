@@ -780,3 +780,26 @@ a {
   max-width: 500px;
   margin: 0 auto;
 }
+
+/* Features (My Design --> Cause Mosh's didn't work) */
+
+.feature {
+  margin-bottom: 10rem;
+}
+
+.feature__header:nth-of-type(odd) {
+  margin-right: 5rem;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+.feature__heading {
+  text-align: center;
+}
+
+.feature__tagline {
+  text-align: center;
+  margin-bottom: 6rem;
+}
