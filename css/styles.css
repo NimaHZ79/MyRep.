@@ -214,7 +214,7 @@ a {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   margin: 1rem 0;
   outline: 0;
   text-transform: uppercase;
@@ -307,6 +307,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -517,27 +518,33 @@ a {
 }
 
 /* Testimonials */
-
 .testimonial {
   padding: 3rem;
-  overflow: visible; /* For making sure that all of the icon is visible */
+  overflow: visible;
+}
+
+.testimonial__image {
+  position: relative;
+  right: auto;
+  margin: 0 3rem;
 }
 
 .testimonial__image > img {
   width: 100%;
 }
 
-.testimonial__image {
-  position: relative;
-}
-
-.testimonial__image > .icon-container--accent {
+.testimonial__image > .icon-container {
   position: absolute;
   top: 3rem;
   right: -32px;
 }
 
 @media screen and (min-width: 768px) {
+  .testimonial__image {
+    margin: 0;
+    right: 0;
+  }
+
   .testimonial .quote,
   .testimonial .quote__author {
     font-size: 2.4rem;
@@ -545,6 +552,7 @@ a {
 
   .testimonial .quote {
     margin-left: 6rem;
+    margin-right: 0;
   }
 }
 
@@ -760,8 +768,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -808,6 +817,13 @@ a {
 .feature__tagline {
   text-align: center;
   margin-bottom: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) header {
+    order: 2;
+    margin-right: 5rem;
+  }
 }
 
 /* Showcase Blocks */
